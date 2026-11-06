@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gradBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="gradRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+    <linearGradient id="gradAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f87171"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="120" cy="120" r="115" fill="url(#gradBg)" stroke="url(#gradRed)" stroke-width="4"/>
+  
+  <!-- Subtle Industrial Grid / Hexagon Accents -->
+  <polygon points="120,20 185,55 185,125 120,160 55,125 55,55" fill="none" stroke="#27272a" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <polygon points="120,80 155,100 155,140 120,160 85,140 85,100" fill="none" stroke="#3f3f46" stroke-width="1.5"/>
+  
+  <!-- Samurai / Engineer Silhouette -->
+  <!-- Shoulders -->
+  <path d="M 45 210 Q 120 160 195 210 Z" fill="#27272a" stroke="url(#gradRed)" stroke-width="2"/>
+  
+  <!-- Neck -->
+  <rect x="110" y="140" width="20" height="25" rx="5" fill="#3f3f46"/>
+  
+  <!-- Head & Crest -->
+  <circle cx="120" cy="105" r="32" fill="#3f3f46" stroke="#52525b" stroke-width="2"/>
+  
+  <!-- Modern Geometric Monogram "SA" (Salah Atmane) -->
+  <path d="M 108 95 L 120 75 L 132 95 Z" fill="url(#gradAccent)"/>
+  <text x="120" y="120" font-family="'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="28" fill="#ffffff" text-anchor="middle" letter-spacing="1">SA</text>
+  
+  <!-- Tech Core Glow Ring -->
+  <circle cx="120" cy="120" r="85" fill="none" stroke="url(#gradAccent)" stroke-width="1.5" stroke-dasharray="6,8" opacity="0.6"/>
+</svg>
